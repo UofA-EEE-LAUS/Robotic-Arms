@@ -21,7 +21,7 @@ On both pages, scroll down until you find the "Install from .mltbx file" section
 
 Peter Corke is the author of both toolboxes and has also written a great textbook on robotics called *Robotics Vision and Control*, this can be found here: 
 
-http://gen.lib.rus.ec/book/index.php?md5=1CDD36ACAC471918C1E9F9BA27CAE20 \
+http://gen.lib.rus.ec/book/index.php?md5=1CDD36ACAC471918C1E9F9BA27CAE20 
 
 It is a good starting point for learning how to model and simulate many different types of robots in MATLAB. This textbook also explains his toolboxes and how to use them.
 
