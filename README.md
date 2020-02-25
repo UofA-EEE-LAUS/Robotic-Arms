@@ -11,7 +11,7 @@ Inverse_Kinematics.m - Robotic Arm model dimension & parameter defination (essen
 
 Arm_simulation.m - Ploting Robotic Arm model in a vitrual 3D dimension (the code that you run to do the simulation)
 
-## SETUP
+## MATLAB SIMULATION SETUP
 
 You will first need to download 2 toolboxes for MATLAB for the simulation to work. They can be found here: \
 http://petercorke.com/wordpress/toolboxes/robotics-toolbox \
@@ -25,3 +25,18 @@ http://gen.lib.rus.ec/book/index.php?md5=1CDD36ACAC471918C1E9F9BA27CAE20
 
 It is a good starting point for learning how to model and simulate many different types of robots in MATLAB. This textbook also explains his toolboxes and how to use them.
 
+## RASPBERRY PI INVERSE KINEMATICS
+
+### Installation
+
+#### 1. Setting up virtual python environment
+`python3 -m venv [DIRECTORY]`
+`source [DIRECTORY]`
+
+### 2. Installing required packages
+`sudo apt-get install libatlas-base-dev`\
+`pip3 install ikpy`\
+`pip3 install matplotlib` (optional plotting package)\
+
+### 3. Usage
+Follow instructions provided at https://github.com/Phylliade/ikpy
